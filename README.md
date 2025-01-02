@@ -18,7 +18,7 @@ This script captures images and annotations from a webcam to create a labeled da
 #### 🔄 General Workflow for Data Generation:
 1. **Initialization**: 
    - Directories are set up for storing data.
-   - Webcam parameters (e.g., resolution) are configured.
+   - Webcam parameters (ex: resolution) are configured.
 2. **Data Collection**:
    - The user clicks on the black screen to mark gaze points.
    - Eye regions are manually cropped using an interactive tool.
@@ -43,7 +43,7 @@ This script trains a ViT-based model for gaze estimation. Key highlights include
   2. 🎯 Uses Mean Squared Error (MSE) loss for regression tasks.
   3. 📈 Implements learning rate scheduling and early stopping for optimal results.
 - **Frameworks Used**: 
-  - Built with `transformers`, `torch`, and `torchvision` for state-of-the-art deep learning.
+  - Built with `transformers`, `torch`, `torchvision` and  `scikit-learn`.
 
 ---
 
